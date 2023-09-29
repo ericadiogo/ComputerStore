@@ -125,7 +125,7 @@ public class ComputerStore {
 							}
 						}
 						break;
-					case 2:
+					case 2: // Option: Update computer information
 						System.out.print("Please, type your password:");
 						word = kb.next();
 						if(word.equals(password)) {
@@ -214,7 +214,7 @@ public class ComputerStore {
 							}
 						}
 						break;
-					case 3:
+					case 3: // Option: display computer by brand
 						ncomp = 0;
 						for(i=0;i<mC;i++) {
 							if(inventory[i]==null) {
@@ -239,7 +239,7 @@ public class ComputerStore {
 						
 
 						break;
-					case 4:
+					case 4: // Option: display computer by price
 						ncomp = 0;
 						for(i=0;i<mC;i++) {
 							if(inventory[i]==null) {
